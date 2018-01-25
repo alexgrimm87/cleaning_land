@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <!-- build:css -->
+
+    <link rel="stylesheet" href="css/fancybox.css">
+    <link rel="stylesheet" href="css/formstyler.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <!-- add new file here -->
+
+    <link rel="stylesheet" href="css/style_basic.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_adapt.css">
+    <!-- endbuild -->
+
+    <!--[if lt IE 10]>
+    <link rel="stylesheet" href="https://rawgit.com/codefucker/finalReject/master/reject/reject.css" media="all" />
+    <script type="text/javascript" src="https://rawgit.com/codefucker/finalReject/master/reject/reject.min.js"></script>
+    <![endif]-->
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<div class="global-wrapper">
+    <!-- HEADER -->
+    <header class="header">
+      <div class="mbox">
+        <div class="header-wrap">
+          <a class="logo" href="index.html"><img src="images/logo.png" alt="logo"></a>
+          <div class="header-left">
+            <div class="phone">
+              <p>Есть вопросы? Звоните!</p>
+              <a href="tel:89161177444">8 (916) 11-77-444</a>
+            </div>
+            <a class="button" href="#contacts">оставить заявку</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- /HEADER -->
+
+    <!-- MAIN -->
+    <div class="main">
+        <!-- add partials here -->
+		<section class="top-block">
+		  <div class="solution-wrap">
+		    <div class="mbox">
+		      <div class="solution">
+		        <h1 data-aos="fade-right" data-aos-once="true">удобное решение для вашего бизнеса</h1>
+		        <div class="form-block">
+		          <h3>Оставить заявку</h3>
+		          <p>Оставьте ваши данные и мы свяжемся с вами</p>
+		          <form class="top-form" action="ajax.php" method="post">
+		            <div class="form-field">
+		              <input type="text" name="name" placeholder="Ваше имя" required />
+		            </div>
+		            <div class="form-field">
+		              <input type="tel" name="tel" placeholder="Ваш телефон" required />
+		            </div>
+		            <button class="button" type="submit">оставить заявку</button>
+		          </form>
+		        </div>
+		      </div>
+		    </div>
+		    <a class="down" href="#companyInfo" data-aos="fade-down" data-aos-once="true"></a>
+		  </div>
+		</section>
+		<section id="companyInfo" class="company-info">
+		  <div class="company-info-wrap mbox">
+		    <div class="company-info-item" data-aos="zoom-in" data-aos-delay="100" data-aos-once="true">
+		      <div class="company-info-icon">
+		        <img src="images/year-icon.png" alt="2008">
+		      </div>
+		      <p>С 2008 года на рынке</p>
+		    </div>
+		    <div class="company-info-item" data-aos="zoom-in" data-aos-delay="200" data-aos-once="true">
+		      <div class="company-info-icon">
+		        <img src="images/service-icon.png" alt="service">
+		      </div>
+		      <p>Современный подход к обслуживанию клиентов</p>
+		    </div>
+		    <div class="company-info-item" data-aos="zoom-in" data-aos-delay="300" data-aos-once="true">
+		      <div class="company-info-icon">
+		        <img src="images/call-icon.png" alt="call">
+		      </div>
+		      <p>Call-центр круглосуточно</p>
+		    </div>
+		    <div class="company-info-item" data-aos="zoom-in" data-aos-delay="400" data-aos-once="true">
+		      <div class="company-info-icon">
+		        <img src="images/materials-icon.png" alt="materials">
+		      </div>
+		      <p>Поставка расходных материалов</p>
+		    </div>
+		    <div class="company-info-item" data-aos="zoom-in" data-aos-delay="100" data-aos-once="true">
+		      <div class="company-info-icon">
+		        <img src="images/area-icon.png" alt="area">
+		      </div>
+		      <p>Более 500 000 м2 убираемых помещений</p>
+		    </div>
+		    <div class="company-info-item" data-aos="zoom-in" data-aos-delay="200" data-aos-once="true">
+		      <div class="company-info-icon">
+		        <img src="images/public-icon.png" alt="public">
+		      </div>
+		      <p>Сотрудничество с государственными заказчиками</p>
+		    </div>
+		    <div class="company-info-item" data-aos="zoom-in" data-aos-delay="300" data-aos-once="true">
+		      <div class="company-info-icon">
+		        <img src="images/company-icon.png" alt="company">
+		      </div>
+		      <p>Обслуживание компаний с мировым именем</p>
+		    </div>
+		    <div class="company-info-item" data-aos="zoom-in" data-aos-delay="400" data-aos-once="true">
+		      <div class="company-info-icon">
+		        <img src="images/individual-icon.png" alt="individual">
+		      </div>
+		      <p>Индивидуальный подход,оказание услуг</p>
+		    </div>
+		  </div>
+		</section>
+        <section class="projects">
+          <div class="title-wrap">
+            <h2>Наши проекты</h2>
+          </div>
+          <div class="mbox">
+            <div class="projects-slider">
+              <div class="slider-item">
+                <div class="slider-item-pic">
+                  <img src="images/office.jpg" alt="office">
+                </div>
+                <div class="slider-item-info">
+                  <h3>Уборка офисов</h3>
+                  <p>Главный враг офисных помещений – пыль, которая является мощным аллергеном. Причем, в офисе скопление пыли значительно больше, нежели в жилых помещениях, чему способствует зачастую расположение бизнес-центра – либо центр города, либо промышленные зоны. Пыль скапливается практически везде: на рабочих столах, подоконниках, стеллажах, внутри шкафов и т.п. И борьба с ней должна проводиться регулярно. Клининг офисов включает в себя удаление пыли, в частности, с мебели и оргтехники.</p>
+                </div>
+              </div>
+              <div class="slider-item">
+                <div class="slider-item-pic">
+                  <img src="images/top-bg.jpg" alt="office">
+                </div>
+                <div class="slider-item-info">
+                  <h3>Уборка офисов</h3>
+                  <p>Главный враг офисных помещений – пыль, которая является мощным аллергеном. Причем, в офисе скопление пыли значительно больше, нежели в жилых помещениях, чему способствует зачастую расположение бизнес-центра – либо центр города, либо промышленные зоны. Пыль скапливается практически везде: на рабочих столах, подоконниках, стеллажах, внутри шкафов и т.п. И борьба с ней должна проводиться регулярно. Клининг офисов включает в себя удаление пыли, в частности, с мебели и оргтехники.</p>
+                </div>
+              </div>
+            </div>
+            <div class="projects-form-block">
+              <form class="projects-form" action="ajax.php" method="post">
+                <div class="form-field">
+                  <input type="text" name="name" placeholder="Ваше имя" required />
+                </div>
+                <div class="form-field">
+                  <input type="tel" name="tel" placeholder="Ваш телефон" required />
+                </div>
+                <button class="button" type="submit">оставить заявку</button>
+              </form>
+            </div>
+          </div>
+        </section>
+        <section class="interaction">
+          <div class="title-wrap">
+            <h2>Удобство взаимодействия</h2>
+          </div>
+          <div class="mbox">
+            <div class="interaction-pic" data-aos="zoom-in" data-aos-once="true" data-aos-anchor=".interaction">
+              <img class="interaction-desk" src="images/interaction.png" alt="interaction">
+              <img class="interaction-adapt" src="images/interaction-adapt.png" alt="interaction">
+            </div>
+            <ul>
+              <li>Осмотр объекта, получение ТЗ</li>
+              <li>Расчёт коммерческого предложения</li>
+              <li>Презентация коммерческого предложения, соглашение</li>
+              <li>Подписание договора</li>
+              <li>Запуск</li>
+              <li>Контроль качества</li>
+            </ul>
+          </div>
+        </section>
+        <section class="about-us">
+          <div class="title-wrap">
+            <h2>О нас</h2>
+          </div>
+          <div class="about-us-info-wrap" data-aos="flip-down" data-aos-once="true" data-aos-anchor=".about-us">
+            <div class="about-us-info">
+              <p>Мы команда, ориентированная на результат, с опытнейшими профессионалами в области профессиональной уборки.</p>
+              <p>Используя наши услуги у Вас останется больше свободного времени для своих детей, на отдых, на развлечения или на саморазвитие. В наше время многие люди готовы заплатить, но сэкономить время на что-то другое, в том числе и на отдых.</p>
+              <p>Стратегия нашей компании - это доверительные, долгосрочные отношения с клиентами. В своей работе мы используем лучшие ресурсы и одновременно придерживаемся к разумным затратам для клиента.</p>
+              <p class="logistics-info-anim">Позвоните прямо сейчас и закажите клининговые услуги.</p>
+            </div>
+          </div>
+        </section>
+        <section class="logistics">
+          <div class="title-wrap">
+            <h2>Схема логистики</h2>
+          </div>
+          <div class="mbox">
+            <p class="logistics-info" data-aos="zoom-in" data-aos-once="true" data-aos-anchor=".logistics-info-anim">Налаженная схема логистики обеспечивает бесперебойное снабжение
+            объектов необходимыми товарно-материальными ценностями,
+            что позволяет поддерживать качество уборки на хорошем уровне.</p>
+            <div class="logistics-scheme">
+              <div class="scheme-item">
+                <div class="scheme-item-icon">
+                  <img src="images/phone-icon.png" alt="phone">
+                </div>
+                <span>Управляющий объектом обращается в отдел закупок/поставок</span>
+                <i class="circles" data-aos="zoom-in" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-anchor=".logistics-info"><i></i></i>
+                <p>Наш специалист формирует заявку и
+                отправляет её на склад. В случае
+                отсутствия ТМЦ на складе, специалист
+                связывается с поставщиком и оформляет заявку на срочную
+                поставку.</p>
+              </div>
+              <div class="scheme-item">
+                <div class="scheme-item-icon">
+                  <img src="images/stock-icon.png" alt="stock">
+                </div>
+                <span>Офис “Мосгорклининг” отдел закупок/поставок</span>
+                <i class="circles" data-aos="zoom-in" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-anchor=".logistics-info"><i></i></i>
+                <p>Наш специалист формирует заявку и
+                отправляет её на склад. В случае
+                отсутствия ТМЦ на складе, специалист
+                связывается с поставщиком и оформляет заявку на срочную
+                поставку.</p>
+              </div>
+              <div class="scheme-item">
+                <div class="scheme-item-icon scheme-icon-red">
+                  <img src="images/delivery-icon.png" alt="delivery">
+                </div>
+                <span>Офис/склад поставщика</span>
+                <i class="circles" data-aos="zoom-in" data-aos-anchor-placement="top-bottom" data-aos-once="true" data-aos-anchor=".logistics-info"><i></i></i>
+                <p>Со склада поставщика ТМЦ
+                на объект доставляется либо
+                поставщиком, либо машиной
+                “Мосгорклининг”</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="cooperation">
+          <div class="title-wrap">
+            <h2>Сотрудничая с “МОСГОРКЛИНИНГ”, Вы приобретаете:</h2>
+          </div>
+          <div class="mbox">
+            <div class="cooperation-item" data-aos="fade-right" data-aos-once="true" data-aos-anchor=".cooperation">
+              <div class="cooperation-pic">
+                <img src="images/approach-icon.png" alt="approach">
+              </div>
+              <div class="cooperation-info">
+                <h3>Индивидуальный подход</h3>
+                <p>Каждый клиент нашей компании может выбрать именно тот пакет услуг,
+                который его в наибольшей степени устроит.</p>
+              </div>
+            </div>
+        
+            <div class="cooperation-item" data-aos="fade-left" data-aos-delay="100" data-aos-once="true" data-aos-anchor=".cooperation">
+              <div class="cooperation-info">
+                <h3>Безупречное качество</h3>
+                <p>Стабильно высокое качество услуг могут гарантировать только професионалы
+                своего дела. Качество и безопасность услуг эксплуатации недвижимости - 
+                это вашего имущества и залог стабильной работы вашего бизнеса.</p>
+              </div>
+              <div class="cooperation-pic">
+                <img src="images/quality-icon.png" alt="approach">
+              </div>
+            </div>
+        
+        
+            <div class="cooperation-item" data-aos="fade-right" data-aos-delay="200" data-aos-once="true" data-aos-anchor=".cooperation">
+              <div class="cooperation-pic">
+                <img src="images/clock-icon.png" alt="clock">
+              </div>
+              <div class="cooperation-info">
+                <h3>Гибкость обслужвания и высокая оперативность</h3>
+                <p>Мы предаём большое значение взаимодействию со своими клиентами на всех
+                уровнях - гачиная с соблюдения договорённостей, заканчивая чистой формой
+                и професиональностью инструментов обслуживающего персонала.</p>
+              </div>
+            </div>
+        
+            <div class="cooperation-item" data-aos="fade-left" data-aos-delay="300" data-aos-once="true" data-aos-anchor=".cooperation">
+              <div class="cooperation-info">
+                <h3>Современные технологии</h3>
+                <p>Для повышения качества нашей работы, а также расширения перечня оказываемых 
+                услуг, мы регулярно инвестируем значительные средства в поиск, изучение и 
+                внедрение нового оборудования.</p>
+              </div>
+              <div class="cooperation-pic">
+                <img src="images/tech-icon.png" alt="tech">
+              </div>
+            </div>
+        
+        
+            <div class="cooperation-item" data-aos="fade-right" data-aos-delay="400" data-aos-once="true" data-aos-anchor=".cooperation">
+              <div class="cooperation-pic">
+                <img src="images/personal-icon.png" alt="personal">
+              </div>
+              <div class="cooperation-info">
+                <h3>Высококвалифицированный и доброжелательный персонал</h3>
+                <p>Благодаря эффективной кадровой политике компании “Мосгорклининг”, мы
+                располагаем высокопрофессиональным персоналом, способным обеспечить
+                самую высокую культуру обслуживания.</p>
+              </div>
+            </div>
+        
+            <div class="cooperation-item" data-aos="fade-left" data-aos-delay="500" data-aos-once="true" data-aos-anchor=".cooperation">
+              <div class="cooperation-info">
+                <h3>Финансовая прозрачность</h3>
+                <p>Нашим клиентам мы готовы предоставить полную финансовую отчётность 
+                о своей деятельности.</p>
+              </div>
+              <div class="cooperation-pic">
+                <img src="images/financial-icon.png" alt="financial">
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="contacts" class="contacts">
+          <div class="mbox">
+            <h2>Контакты</h2>
+            <div class="contacts-wrap">
+              <div class="contacts-left" data-aos="fade-right" data-aos-once="true" data-aos-anchor=".contacts">
+                <a class="logo" href="index.html"><img src="images/logo.png" alt="logo"></a>
+                <div class="contacts-block">
+                  <p>111672, город Москва
+                  <br>ул. Суздальска, дом 10,  корпус 1</p>
+                  <a href="tel:89161177444">8 (916) 11-77-444</a>
+                  <a href="mailto:klining.mos@gmail.com">klining.mos@gmail.com</a>
+                </div>
+              </div>
+              <div class="contacts-right" data-aos="fade-left" data-aos-once="true" data-aos-anchor=".contacts">
+                <h3>Оставить заявку</h3>
+                <p>Оставьте ваши данные и мы свяжемся с вами</p>
+                <form class="contacts-form" action="ajax.php" method="post">
+                  <div class="form-field">
+                    <input type="text" name="name" placeholder="Ваше имя" required />
+                  </div>
+                  <div class="form-field">
+                    <input type="tel" name="tel" placeholder="Ваш телефон" required />
+                  </div>
+                  <button class="button" type="submit">оставить заявку</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+    </div>
+    <!-- /MAIN -->
+
+    <div class="hidden-block">
+    
+        <div id="call_success">
+            <div class="call-success">
+                 <div class="call_success">
+                     <div class="call-title">Спасибо за заявку!</div>
+                     <div class="call-subtitle">Мы свяжемся с Вами в ближайшее время</div>
+                 </div>
+            </div>
+        </div>
+    
+        <div id="call-popup">
+            <form action="ajax.php" name="" class="contact-form">
+                <div class="contact-form-title">
+                    <h5>Lorem ipsum dolor.</h5>
+                </div>
+                <div class="contact-form-row cfix">
+                    <div class="contact-form-item">
+                        <div class="contact-form-item-input form_row">
+                            <div class="form_input">
+                                <input type="text" name="contact_name" required="required" value="" placeholder="Ваше Имя">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form-item">
+                        <div class="contact-form-item-input form_row">
+                            <div class="form_input">
+                                <input type="text" name="contact_tel" value="" required="required" placeholder="Ваш номер" class="tel-mask">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-row cfix">
+                    <div class="contact-form-item">
+                        <button type="submit" class="contact-submit">
+                            <span>Отправить заявку</span>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer_placeholder"></div>
+    <footer class="footer">
+      <div id="map"></div>
+    </footer>
+    <!-- FOOTER -->
+    
+    <!-- SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/validate_script.js" ></script>
+    
+    <!-- build:js -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAD4EvtZ1QPqDgkPPt4o0hVDnkg45IvyUM"></script> 
+    <script type="text/javascript" src="js/plagins/device.js" ></script>
+    <script type="text/javascript" src="js/plagins/jquery.fancybox.pack.js" ></script>
+    <script type="text/javascript" src="js/plagins/jquery.formstyler.min.js" ></script>
+    <script type="text/javascript" src="js/plagins/jquery.validate.min.js" ></script>
+    <script type="text/javascript" src="js/plagins/maskInput.js" ></script>
+    <script type="text/javascript" src="js/plagins/slick.js" ></script>
+    <script type="text/javascript" src="js/plagins/aos.js" ></script>
+    
+    <script type="text/javascript" src="js/basic_scripts.js" ></script>
+    <script type="text/javascript" src="js/develop/script.js" ></script>
+    <!-- endbuild -->
+    
+    <!-- /SCRIPTS -->
+
+</div>
+</body>
+</html>
